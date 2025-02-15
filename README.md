@@ -122,7 +122,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcInVzZXJUZXN0XCIiLCJpYXQiO
 
 | Método | URI                |
 |--------|--------------------|
-| Put    | /v1/customers/life-expectancy |
+| GET    | /v1/customers/life-expectancy |
 
 ##### Headers
 
@@ -133,9 +133,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcInVzZXJUZXN0XCIiLCJpYXQiO
 ##### Payload request
 
 ```javascript
-{
-    "age": 40
-}
+(Al ser metodo get not existe payload por buena practica)
 ```
 
 ##### Payload Response
